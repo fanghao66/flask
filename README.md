@@ -29,7 +29,7 @@ app = Flask(
 
 ### 2.1 app.run(host,port,debug)
 
-	**监听的IP地址设置**
+**监听的IP地址设置**
 
 		0.0.0.0 本地所有的IP地址
 
@@ -39,17 +39,17 @@ app = Flask(
 
 		公网IP地址：提供互联网访问的IP地址
 
-	**端口号设置一般是10000~50000**
+**端口号设置一般是10000~50000**
 
-	**Debug设置，True的情况下有修改自动重启。**
+**Debug设置，True的情况下有修改自动重启。**
 
 ### 2.2 路由设置
 
 	@app.route(path,methods=[])
 
-	**path为相对于当前IP+端口的位置**
+**path为相对于当前IP+端口的位置**
 
-	**methods为一个列表通过request.method获取**
+**methods为一个列表通过request.method获取**
 
 #### 2.2.1 静态路由
 
